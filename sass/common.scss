@@ -1,0 +1,87 @@
+// COMMON STYLES
+
+*{
+	box-sizing: border-box;
+}
+.cf::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+ 
+body { 
+	margin: 0;
+	font-family: "OpenSans", sans-serif;
+	font-weight: $weight-norm;
+	border-top: 3px solid $orange;
+}
+
+.sect {
+	padding: 80px 0;
+	// text-align: center;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+
+}
+
+h1{
+	color: $grey;
+	font-size: 36px;
+	font-weight: $weight-bold;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+h1:after{
+	content: "";
+	display: block;
+	width: 170px;
+	height: 2px;
+	margin: 20px auto;
+	background-color: $grey;
+
+}
+
+.h1-sub{
+	max-width: 560px;
+	margin: 20px auto 77px;
+	text-align: center;
+}
+
+
+p{
+	color: $grey;
+	font-size: 14px;
+	font-weight: $weight-light;
+	line-height: 20px;
+}
+
+.btn{
+	border: 1px solid $orange;
+	background: transparent;
+	text-transform: uppercase;
+	font-weight: $weight-norm;
+	width: 159px;
+	height: 48px;
+	line-height:48px;
+	text-align:center;
+	border-radius: 3px;
+}
+
+.btn-orange{
+	background: $orange;
+	color: #fff;
+	margin-right: 30px;
+}
+
+.btn-white{
+	background: #fff;
+	color: $orange;
+}
+
+a{
+	text-decoration: none;
+}
