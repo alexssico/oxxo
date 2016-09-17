@@ -2773,7 +2773,7 @@ body {
   margin: 0;
   font-family: "OpenSans", sans-serif;
   font-weight: 400;
-  border-top: 3px solid #ff7200;
+  border-top: 5px solid #ff7200;
 }
 
 .sect {
@@ -2831,6 +2831,12 @@ p {
   background: #ff7200;
   color: #fff;
   margin-right: 30px;
+}
+@media (max-width: 353px) {
+  .btn-orange {
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
 }
 
 .btn-white {
@@ -3385,6 +3391,7 @@ a {
   background-color: #202020;
   vertical-align: middle;
   color: #fff;
+  font-size: 14px;
 }
 @media (max-width: 768px) {
   #copyright {
@@ -3407,6 +3414,15 @@ a {
 #copyright .copyright {
   float: left;
   margin: 25px 25px;
+}
+@media (max-width: 768px) {
+  #copyright .copyright {
+    text-align: center;
+    float: none;
+    display: block;
+    padding-top: 20px;
+    margin: 0;
+  }
 }
 #copyright .menu-footer {
   float: right;

@@ -3,7 +3,7 @@
 @import 'menu';
 @import 'responsive_grid';
 @import 'common';
-
+  
  
 #header{
 	background: $bg-color url(../img/top-bg.jpg) no-repeat top center;
@@ -648,6 +648,7 @@
 	// height: 70px;
 	vertical-align: middle;
 	color: #fff;
+	font-size: 14px;
 
 		@media (max-width: $break_sm){
 			text-align: center;
@@ -668,6 +669,15 @@
 	.copyright{
 		float: left;
 		margin: 25px 25px;
+
+		@media (max-width: $break_sm){
+			text-align: center;
+			float: none;
+			display: block;
+			padding-top: 20px;
+			margin: 0;
+		}
+
 	}
 
 	.menu-footer{

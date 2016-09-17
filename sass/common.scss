@@ -13,7 +13,7 @@ body {
 	margin: 0;
 	font-family: "OpenSans", sans-serif;
 	font-weight: $weight-norm;
-	border-top: 3px solid $orange;
+	border-top: 5px solid $orange;
 }
 
 .sect {
@@ -69,12 +69,20 @@ p{
 	line-height:48px;
 	text-align:center;
 	border-radius: 3px;
+
+
 }
 
 .btn-orange{
 	background: $orange;
 	color: #fff;
 	margin-right: 30px;
+
+	@media (max-width: 353px){
+		margin-right: 0px;
+		margin-bottom: 20px;
+
+	}
 }
 
 .btn-white{
